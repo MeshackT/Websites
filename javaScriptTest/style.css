@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#button-text-show, #button-text-save, #button-save-icreament, #button-icreament{
+ width: 100px;
+ height: 50px;
+ color: white;
+ background-color: rgb(168, 0, 98);
+}
+#button-text-show:hover, #button-text-save:hover{
+    background-color: black;
+}

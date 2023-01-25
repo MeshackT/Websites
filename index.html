@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Designs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./app.js"></script>
+  <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+
+</head>
+<body>
+  
+
+  <!-- navigation bar -->
+  
+  <nav class=" navbar navbar-expand-sm navbar-light bg-white sticky-top pb-3 pt-3 text-uppercase">
+            <!--Container fluid fills the width-->
+    <div class="container-fluid  ">
+      <ul class="navbar-nav mx-4">
+        <!--my Logo-->
+        <a class="navbar-brand d-flex justify-content-start" href="#homeIndex">Luis.</a>
+      </ul>
+      <button class="navbar-toggler toggle-button" 
+        type="button"
+        data-bs-toggle="collapse" 
+        data-bs-target="#collapsibleNavbar"
+        aria-controls="collapsibleNavbar"
+        aria-expanded="false "
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+    </div>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <!-- Links -->
+      <ul class="navbar-nav pe-3 ps-4 me-2 ms-2">
+        <li class="nav-item ">
+          <!-- this code closes the list after a click -->
+          <a class="nav-link active text-uppercase" 
+          href="#homeIndex">Home
+          </a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link active text-uppercase" href="#workIndex">Work</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active text-uppercase" href="#aboutIndex">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-uppercase" href="#contactIndex">Contact</a>
+        </li>
+        
+        <div class="mx-4"></div>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- main section starts here -->
+  <section class="main" id="homeIndex">
+
+    <div class="container-fluid homeInd pb-5 text-center" >
+        <div class="row justify-content-center">
+            <div class="col-lg-12 py-5 mr-auto text-center text-md-center" 
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center">
+              
+                <div class="container landinghomeInd ">
+                  <h2 class=" nameHeader mt-5 pt-5" id="nameText" >
+                    Hi, my name is <span>Luis</span>
+                  </h2> 
+                <h6 class=" subtitleHeader mt-3 pt-5">
+                  I provide services related to design and Softwares.
+                  It may either be a website, mobile or desktop, I do it all.
+                    </h4>
+                <h6 class="extendedTitle pt-2 pb-2 text-uppercase">
+                  a professional designer</h6>
+                <div class="line container float-center text-center"></div>
+            
+              <!-- buttons -->
+            <input type="button" value="My work" class="btn1 mt-5" 
+                    href=".workIndex"
+                    data-aos="fade-up" 
+                    data-aos-duration="1000"  
+                    data-aos-easing="slide-in-out">
+            <input type="button" value="More" class="btn2 mt-5"
+                    data-aos="fade-up" 
+                    data-aos-duration="2000"  
+                    data-aos-easing="ease-in-out">
+            <!-- line -->
+            <div class="box" ></div>      
+          </div>
+            </div>
+            
+        </div>
+    </div>
+
+  </section>
+
+  <section class="workIndex hidden" id="workIndex" >
+
+    <div class="row text-center text-md-center">
+      
+      <div class="title text-uppercase pt-5 pb-5 has-animation animation-ltr" data-delay="10">
+        <h2 class="aboutHeader pt-3">My <span>Work</span></h2></div>
+      </div>
+      <div class="container text-center col-md-12 col-lg-12">
+        <div class="control">
+          <ul>
+            <li class="button active" data-filter="Mobile">Mobile</li>
+            <li class="button active" data-filter="Web">Web</li>
+            <li class="button active" data-filter="Logos">Logos</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-12 col-lg-3">
+            <div class="item">
+              <img src="./images/cactus.jpg" class="img-fluid filter Mobile Web Logos" alt=""
+              data-bs-toggle="modal" data-bs-target="#portfoliomodal"
+              data-aos="fade-left" 
+              data-aos-duration="1000"  
+              data-aos-easing="ease-in">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3">
+            <div class="item">
+              <img src="./images/cactus.jpg" class="img-fluid filter Mobile Web Logos" alt=""
+              data-bs-toggle="modal" data-bs-target="#portfoliomodal"
+              data-aos="fade-left" 
+              data-aos-duration="1000"  
+              data-aos-easing="ease-in">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3">
+            <div class="item">
+              <img src="./images/cactus.jpg" class="img-fluid filter Mobile Web Logos" alt=""
+              data-bs-toggle="modal" data-bs-target="#portfoliomodal"
+              data-aos="fade-left" 
+              data-aos-duration="1000"  
+              data-aos-easing="ease-in">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3">
+            <div class="item">
+              <img src="./images/cactus.jpg" class="img-fluid filter Mobile Web Logos" alt=""
+              data-bs-toggle="modal" data-bs-target="#portfoliomodal"
+              data-aos="fade-left" 
+              data-aos-duration="1000"  
+              data-aos-easing="ease-in">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3">
+            <div class="item">
+              <img src="./images/cactus.jpg" class="img-fluid filter Mobile Web Logos" alt=""
+              data-bs-toggle="modal" data-bs-target="#portfoliomodal"
+              data-aos="fade-right" 
+              data-aos-duration="1000"  
+              data-aos-easing="ease-in">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3">
+            <div class="item">
+              <img src="./images/cactus.jpg" class="img-fluid filter Mobile Web Logos" alt=""
+              data-bs-toggle="modal" data-bs-target="#portfoliomodal"
+              data-aos="fade-right" 
+              data-aos-duration="1000"  
+              data-aos-easing="ease-in">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3">
+            <div class="item">
+              <img src="./images/cactus.jpg" class="img-fluid filter Mobile Web Logos" alt=""
+              data-bs-toggle="modal" data-bs-target="#portfoliomodal"
+              data-aos="fade-right" 
+              data-aos-duration="1000"  
+              data-aos-easing="ease-in">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3">
+            <div class="item">
+              <img src="./images/cactus.jpg" class="img-fluid filter Mobile Web Logos" alt=""
+              data-aos="fade-right" 
+              data-aos-duration="1000"  
+              data-aos-easing="ease-in">
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+   
+  </section>
+
+  <!-- Show this when we view the website -->
+<div class="portfolio-model modal fade mt-5 hidden" id="portfoliomodal" aria-hidden="true" role="dialog">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content text-center">
+      <div class="model-body text-center">
+        <div class="container-fluid p-0 ">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <img src="./images/flower.jpg" class="img-fluid p-0" width="100%" height="100%" alt="">
+            </div>
+          </div>
+          <div class="description">
+              <h5>Mobile Application Design</h6>
+              <h6>Design with Figma, Illustrator, Photoshop and UIE<br/>
+                Design with Figma, Illustrator, Photoshop and UIE<br/>
+                Design with Figma, Illustrator, Photoshop and UIE<br/>
+                Design with Figma, Illustrator, Photoshop and UIE<br/>
+              </h6>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- About Me -->
+  <section class="about hidden" id="aboutIndex">
+    <!--this has padding around it-->
+<div class="container aboutInd mt-5 mb-0 p-5">
+  <div class="row">
+    <div class="col-lg-12 aboutustitle pb-5 text-center text-md-center text-uppercase ">
+      <h2 class="aboutHeader pt-3">About <span>US</span></h2></div>
+  </div>
+  <!--this creates a row item 1 || item 2-->
+  <div class="row justify-content-center">
+
+      <!--use 5 colums on bigger devices and 12 in small devices place text at the center-->        
+      <div class="card col-md-12 col-lg-6 cardabout border " 
+          data-aos="fade-left" 
+          data-aos-duration="2000"
+          data-aos-delay="50"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center">
+
+        <div class="card-header text-center text-md-center ">
+          <h1> OUR <span>VISION</span></h1>
+        </div>
+        <div class="card-body">
+          <div class=" text-center text-md-center">
+            <p>We are a team of software design for mobile and  web applications.
+            <br>Our vision is to be the best at what we do and be reliable designers for 
+            our clients. 
+            <br>We are passionate about what we do.
+            <br>What inspires our creativity is our imagination.
+            <br>We strive to make the best of our capabilities produce something fruitful for you as clients. 
+            Our goal is to create a software design that we will be 
+            able to develop eventually with all the technical programming skills we have.
+            </p>
+            <div class="container">
+              <div class="col ">
+                <a>
+                  <i class="fa fa-whatsapp fa1 "
+                     type="button" 
+                     class="btn btn-primary faWhatsapp"
+                     data-bs-toggle="popover"
+                     title="Contact me on" 
+                     data-bs-content="067 642 8404">
+                  </i>
+                </a>
+
+                <a href="https://www.facebook.com/MeshTemp"><i class="fa fa-facebook fa2"></i></a>
+                <a href="https://dribbble.com/Templeton"><i class="fa fa-dribbble fa3"></i></a>
+                <a href="https://www.github.com/MeshackT"><i class="fa fa-github fa5"></i></a>
+                <a>
+                  <i class="fa fa-linkedin fa4"
+                  type="button" 
+                     class="btn btn-primary"
+                     data-bs-toggle="popover"
+                     title="Follow me on LinkedIn" 
+                     data-bs-content="www.linkedIn.com/in/templeton-meshack-9b288b1a0">
+                    </i>
+                  </a> 
+            </div>
+            </div>
+    
+        </div>
+      </div>
+      
+</div>
+</section>
+
+<!-- blog section -->
+<section id="blogIndex">
+  <div class="container">
+
+  </div>
+</section>
+
+  <!-- Contact us -->
+  <section id="contactIndex" class="contactBaground pt-3 pb-3 mb-5 hidden">
+    <div class="container  pb-3 pt-4 "  > <!--remove color-->
+      <div class="contactTitle text-uppercase mt-5 mb-5 text-center">
+        <h2 class="contactHeader"><span>Cont</span>act</h2>
+      </div>
+      <h2 class="contactMessage p-3 text-center">Let's get your <span class="span1">message sent</span></h2>
+
+      <div class="row">
+        <div class="col-lg-5" data-aos="fade-right" 
+            data-aos-duration="2000"  
+            data-aos-easing="slide-in-right"
+            data-aos-delay="50"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center">
+          <div class="col text-center pt-5">
+            <div class="col-lg-6 ">
+              <div class="circle ">
+                <div class="address fa fa-address pt-3 pb-2"></div>
+              </div>
+              <h5 class="addressHeader">Address</h5>
+              <p>Windmill Park X9, Boksburg 1459, Gauteng, South Africa</p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="circle">
+                <div class="phone fa fa-whatsapp pt-3 pb-2"></div>
+              </div>
+              <h5 class="phoneHeader">Phone Numbers</h5>
+              <p>067 642 8404 / 060 456 4022</p>
+            </div>
+            <div class="col-md-12 col-lg-6 ">
+              <div class="circle">
+                <div class="link fa fa-linkedin pe-3 pt-3 pb-2">
+                  <h5 class="linkedInHeader">LinkedIn</h5></div>
+              </div>
+              <p><a href="www.linkedin.com/meshacktempleton">www.linkedin.com/meshacktempleton</a></p>
+            </div>
+            <div class="col-md-12 col-lg-6 text-center">
+              <div class="circle">
+                <div class="git fa fa-github pe-3 pt-3 pb-2">
+                  <h5 class="githubHeader">GitHub</h5>
+                </div>
+              </div>
+              <p><a href="www.github.com/MeshackT">www.github.com/MeshackT</a></p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="circle">
+                <div class="email fa fa-desktop pe-3 pt-3 pb-2">
+                  <h5 class="emailHeader">Email</h5>
+                </div>
+              </div>
+              <p>meshacktempleton1@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-7">
+          <div class="container wrapper rounded-5 border containerContactBorder p-5 mb-2 float-end"
+            data-aos="fade-left" 
+            data-aos-duration="2000"  
+            data-aos-easing="slide-in-left"
+            data-aos-delay="50"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center>
+            <!-- validate using php -->
+            <form  class="form was-validated" >
+              <!-- margin -->
+              <div class=" mt-0 mb-2 text-center ">
+                <h3 class="fomrtitle">Form</h3>
+              </div>
+              <div class="pb-3 pt-3">
+                <!-- label -->
+                <label for="uname" class="fw-bold labelTitle form-label float-start ">Your Name</label>
+                <!-- input -->
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="mb-3 mt-3">
+                <!-- label -->
+                <label for="uemail" class=" fw-bold labelTitle form-label float-start">Your Email</label>
+                <!-- input -->
+                <input type="text" class="form-control" id="email" placeholder="Enter your email" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please enter your email address.</div>
+              </div>
+              <div class="mb-3 mt-3">
+                <!-- label -->
+                <label for="usubject" class=" fw-bold labelTitle form-label float-start ">Your Name</label>
+                <!-- input -->
+                <input type="text" class="form-control" id="subject" placeholder="Enter your subject"  required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please enter your subject.</div>
+              </div>
+              <div class="mb-0 mt-3 pb-0">
+                <!-- label -->
+                <label for="umessage" class=" fw-bold labelTitle form-label float-start ">Your Message</label>
+    
+                <textarea type="text" class="form-control" id="message" placeholder="Enter your message" required rows="5"></textarea>
+    
+                <div class="valid-feedback">Valid.</div>
+                <div class=" invalid-feedback">Please enter your message.</div>
+              </div>
+              
+              <div class="container justify-content-center text-center">
+                <input type="submit" value="Send" 
+                class="btn1-submit float-center mb-0 mt-3">
+
+              </div>    
+    
+            </form>
+    
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>  
+  <section>
+
+<!-- footer section -->
+    <section class="footerSector">
+      <footer class="py-5 text-center mb-0 ">
+        <p class="footer-content">Copywrite @ 2023 By Webgooru All Rights Reserved</p>
+      </footer>
+    </section>
+
+    <!-- import this source -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- initialize this for animation -->
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+      </script>
+  </body>
+
+</html>
+
